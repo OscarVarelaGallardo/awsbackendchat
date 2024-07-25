@@ -48,6 +48,9 @@ app.get('/socket/testing', (req, res) => {
     res.json({ message: 'Testing socket' });
 });
 
+app.get('/', (req, res) => {
+    res.json({ message: 'Servidor de sockets' });
+});
 const saveMessage = (msg) => {
     console.log('Guardando mensaje: ' + msg);
 };  
