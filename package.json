@@ -1,0 +1,28 @@
+{
+  "name": "chat-proto-backend",
+  "version": "1.0.0",
+  "description": "Prototipo para el backend chat",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Express.js",
+    "Socket.IO.js",
+    "Node.js",
+    "Chat"
+  ],
+  "author": "tiLatina-server",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "logger": "^0.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  }
+}
