@@ -12,7 +12,8 @@ const PORT = process.env.PORT || 3000;
 const server = createServer(app);
 
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    //permitir todos los origenes
+    origin: '*',
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type'],
     credentials: true,
