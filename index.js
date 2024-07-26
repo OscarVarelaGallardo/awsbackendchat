@@ -7,7 +7,7 @@ import { Server } from 'socket.io';
 
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = 8080;
 
 const server = createServer(app);
 
@@ -54,6 +54,7 @@ app.get('/', (req, res) => {
 const saveMessage = (msg) => {
     console.log('Guardando mensaje: ' + msg);
 };  
+
 server.listen(PORT, () => {
     console.log(`Servidor escuchando en el puerto ${PORT}`);
 });
